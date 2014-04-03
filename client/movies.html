@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find Movies</title>
+    <link rel="stylesheet" href="movies.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="movies.js"></script>
+  </head>
+  <body>
+    <div id="search">
+      <input id="search-field" placeholder="Search for a movie...">
+      <button id="search-button">Search!</button>
+      <button id="new-movie-button">New Movie</button>
+    </div>
+    <div id="movie-list"></div>
+    <div id="right-pane">
+      <div id="movie-details">
+        <div id="movie-poster"></div>
+        <div id="movie-info">
+          <div id="movie-title"></div>
+          <div id="movie-release"></div>
+          <div id="movie-rating"></div>
+        </div>
+      </div>
+      <div id="new-movie">
+        <form id="movie-form">
+          <label>Title:</label>
+          <input type="text" name="name">
+          <label>Rating:</label>
+          <input type="text" name="rating">
+          <label>Release Date:</label>
+          <input type="text" name="release_date">
+          <label>Poster URL:</label>
+          <input type="text" name="poster_url">
+        </form>
+        <button id="create-movie-button">Create Movie</button>
+      </div>
+    </div>
+  </body>
+</html>

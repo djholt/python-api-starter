@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+#search {
+  background: #333;
+  padding: 20px;
+}
+
+#search-field {
+  font-size: 20px;
+  height: 26px;
+  padding: 10px;
+  margin: 0;
+  width: 400px;
+}
+
+#search-button {
+  font-size: 20px;
+  height: 50px;
+  padding: 12px;
+}
+
+#new-movie-button {
+  float: right;
+  font-size: 20px;
+  height: 50px;
+  padding: 12px;
+}
+
+#movie-list {
+  background: #E9D9FF;
+  bottom: 0;
+  left: 0;
+  overflow: scroll;
+  padding: 10px;
+  position: absolute;
+  right: 50%;
+  top: 90px;
+}
+
+.movie {
+  background: #D1ADFF;
+  cursor: pointer;
+  margin: 10px;
+  padding: 15px;
+}
+
+#right-pane {
+  background: #D4E9FF;
+  bottom: 0;
+  clear: both;
+  left: 50%;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 90px;
+}
+
+#movie-poster {
+  float: left;
+}
+
+#movie-poster img {
+  height: 400px;
+  padding-right: 15px;
+}
+
+#movie-info {
+  float: left;
+}
+
+#movie-title {
+  color: #4AA1FF;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+#new-movie {
+  display: none;
+}
+
+#new-movie label {
+  display: block;
+  font-size: 24px;
+}
+
+#new-movie input {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#new-movie button {
+  font-size: 20px;
+  height: 50px;
+  padding: 12px;
+}
